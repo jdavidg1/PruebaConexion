@@ -16,5 +16,11 @@ namespace PruebaConexion
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Se hace una instancia para llamar al constructor
+            CConexion c = new CConexion();
+        }
     }
 }
